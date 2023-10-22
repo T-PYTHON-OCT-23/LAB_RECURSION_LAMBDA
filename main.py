@@ -3,9 +3,7 @@ def countVowels(phrase):
     count=0
     if phrase == "":
         return count
-    phrase.split()
-    tempChar=phrase[0]
-    if tempChar.lower() in vowels:
+    if phrase[0].lower() in vowels:
         count+=1
     return count + countVowels(str(phrase[1:]))
 
