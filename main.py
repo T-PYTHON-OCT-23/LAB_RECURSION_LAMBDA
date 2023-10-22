@@ -12,6 +12,6 @@ def countVowels(phrase):
 print("number of vowels in your pharse",countVowels("I love python"))
     
 list_=[40,35, 10, 15, 20]
-square=lambda x: x*2
+square=lambda x: x**2
 timesTwo=list(map(square,list_))
 print(timesTwo)
