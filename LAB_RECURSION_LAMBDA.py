@@ -11,6 +11,7 @@ print(f"number vowels in {many_vowels(phrase.lower())}")
 
 
 
+
 # 2) create a new list containing each number from the previous list mutliplied by itself
 result= map(lambda n :n*n, [40,35, 10, 15, 20])
 print(list(result))

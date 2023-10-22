@@ -15,7 +15,7 @@ FizzBuzz()
  # use while       
 def FizzBuzz_tow():
     numbers=1
-    while numbers <100:
+    while numbers in range(1,100):
         if numbers % 5 == 0 and numbers % 3 == 0 :
             print(f"{numbers} is FizzBuzz")
         elif numbers % 3 == 0:
