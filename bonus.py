@@ -24,5 +24,17 @@ def fizzBuzzWhile():
         increment+=1
 #fizzBuzzWhile()
 
-
-
+#   b   o   n   u   s
+def fizzBuzzRecurcive(number1):
+    if number1 >100:
+        return
+    if number1%3==0 and number1%5==0:
+        print("FizzBuzz")
+    elif number1%3==0:
+        print("Fizz")
+    elif number1%5==0:
+        print("Buzz")
+    else:
+        print(number1)
+    fizzBuzzRecurcive(number1+1)
+fizzBuzzRecurcive(1)
