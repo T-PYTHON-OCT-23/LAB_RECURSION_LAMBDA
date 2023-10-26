@@ -7,6 +7,9 @@ def vowels_letters(string:str)->int:
     if string[0].lower() in vowels:
         count=1
         return count + vowels_letters(string[1:])
+    else:
+        return count + vowels_letters(string[1:])
+
 
 value = input("Enter a sentence: ")
 print(vowels_letters(value))
